@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/css/style.css">
+
+    <title>Site de revision</title>
+</head>
+<body>
+    <div class="container">
+
+        <main>
+            <h1>Site de révision page d'enregistrement</h1>
+            <h2>register</h2>
+            <form action="/register" method="post">
+
+                <div class="formulaire">
+                    <h2>Créer un compte</h2>
+                    <div class="zoneInscription">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" placeholder="Votre email">
+                    </div>
+                    <div class="zoneInscription">
+                        <label for="password">Mot de passe</label>
+                        <input type="password" name="password" placeholder="Votre mot de passe">
+                    </div>
+                    <button>Valider</button>
+                </div>
+
+            </form>
+            <p>
+                <% if (typeof toto !== undefined) { %>
+                    <p><%= locals.toto %></p>
+                <% } %>
+            </p>
+        </main>
+        <footer>
+            <p>
+                &copy; POULLOT François
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
