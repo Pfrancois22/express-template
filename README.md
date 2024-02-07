@@ -1,12 +1,12 @@
 ### Development
 
-To get started with ExileX in development mode, follow these steps:
+To get started with express-template in development mode, follow these steps:
 
 1. Clone the repository:
 
    ```bash
-   git clone "https://github.com/sl-miguel/ExileX.git"
-   cd ExileX
+   git clone "https://github.com/Pfrancois22/express-template.git"
+   cd express-template
    ```
 
 2. Install the necessary dependencies:
