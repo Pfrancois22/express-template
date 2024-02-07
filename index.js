@@ -19,7 +19,7 @@ app.use(express.urlencoded({
 
 app.use(express.static('./public'));
 
-
+//lancer les routes
 app.use(router);
 
 
